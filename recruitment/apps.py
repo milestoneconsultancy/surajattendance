@@ -1,8 +1,9 @@
 from django.apps import AppConfig
 
 class RecruitmentConfig(AppConfig):
-    default_auto_field = 'django.db.models.BigAutoField'
-    name = 'recruitment'
+    default_auto_field = "django.db.models.BigAutoField"
+    name = "recruitment"
 
     def ready(self):
+        # Vercel वर URL appending टाळा
         pass
