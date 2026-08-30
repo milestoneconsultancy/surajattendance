@@ -21,15 +21,11 @@ djangorestframework==3.16.0
 djangorestframework-simplejwt==5.5.0
 drf-yasg
 
-# Data Processing
-numpy
+# Data Processing (Report साठी)
 openpyxl
-pandas
 XlsxWriter
 
-# PDF & Reporting
-pdfkit
-PyMuPDF
+# PDF Reports
 reportlab==4.0.9
 xhtml2pdf
 
@@ -39,10 +35,9 @@ requests
 requests-oauthlib
 bleach==6.2.0
 
-# Google Integration
+# Google Integration (फक्त Auth, Storage नाही)
 google-api-python-client
 google-auth-oauthlib
-google-cloud-storage==3.0.0
 
 # Geolocation
 geopy
@@ -68,7 +63,7 @@ APScheduler
 python-dateutil
 pytz
 
-# Internationalization & NLP
+# Internationalization
 arabic-reshaper
 click
 phonenumbers==9.0.37
@@ -76,11 +71,7 @@ pycountry==24.6.1
 python-bidi
 rapidfuzz==3.9.6
 
-# Spacy (स्पेशल सेटअप)
-spacy==3.7.5
-https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1-py3-none-any.whl
-
-# Vercel Deployment
+# Deployment
 setuptools
 wheel
 
